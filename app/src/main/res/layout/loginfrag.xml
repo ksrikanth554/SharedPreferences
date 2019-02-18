@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText android:layout_width="match_parent"
+
+              android:layout_height="wrap_content"
+              android:layout_marginEnd="15dp"
+              android:layout_marginStart="15dp"
+              tools:layout_editor_absoluteX="०dp" app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.213"
+              android:id="@+id/edtlogusername" android:hint="Enter User name"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_marginStart="15dp"
+              android:layout_marginEnd="15dp"
+              android:layout_height="wrap_content"
+              tools:layout_editor_absoluteX="०dp"
+              app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.099"
+              android:id="@+id/edtloguserpassword" android:layout_marginTop="८dp"
+              app:layout_constraintTop_toBottomOf="@+id/edtlogusername" android:hint="enter password"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="८dp" android:layout_marginRight="८dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="८dp"
+            android:layout_marginStart="८dp" android:layout_marginBottom="४०dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.498"
+            android:layout_marginTop="८dp" app:layout_constraintTop_toBottomOf="@+id/edtloguserpassword"
+            app:layout_constraintVertical_bias="0.111" android:id="@+id/btnloign"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="८dp" android:layout_marginRight="८dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="८dp"
+            android:layout_marginStart="८dp" android:layout_marginBottom="४०dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.498"
+            android:layout_marginTop="८dp" app:layout_constraintTop_toBottomOf="@+id/btnloign"
+            app:layout_constraintVertical_bias="0.149" android:id="@+id/btnlogregister"/>
+</android.support.constraint.ConstraintLayout>
